@@ -1,0 +1,5 @@
+add_executable(defangIPaddr defangIPaddr.cpp)
+add_executable(maxIncreaseKeepingSkyline maxIncreaseKeepingSkyline.cpp)
+add_executable(hammingDistance hammingDistance.cpp)
+add_executable(allCellsDistOrder allCellsDistOrder.cpp)
+add_executable(peakIndexInMountainArray peakIndexInMountainArray.cpp)

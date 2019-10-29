@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 public:
-    // O(n log n) where n is the number of cells
+    // O(n log n) time, where n is the number of cells
     vector<vector<int>> allCellsDistOrder(int R, int C, int r0, int c0) {
         vector<vector<int>> cells;
 
@@ -23,6 +23,10 @@ public:
         });
 
         return cells;
+    }
+
+    // O(n) time
+    vector<vector<int>> allCellsDistOrderLinear(int R, int C, int r0, int c0) {
     }
 };
 

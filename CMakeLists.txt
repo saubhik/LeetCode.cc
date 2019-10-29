@@ -3,10 +3,7 @@ project(leethal++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(contests)
+add_subdirectory(src/contests)
+add_subdirectory(src/leetcode)
 
 add_executable(leethal main.cpp)
-add_executable(defangIPaddr src/defangIPaddr.cpp)
-add_executable(maxIncreaseKeepingSkyline src/maxIncreaseKeepingSkyline.cpp)
-add_executable(hammingDistance src/hammingDistance.cpp)
-add_executable(allCellsDistOrder src/allCellsDistOrder.cpp)
