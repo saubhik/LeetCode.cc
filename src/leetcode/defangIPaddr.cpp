@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 public:
-    string defangIPaddr(string address) {
+    static string defangIPaddr(string address) {
         string res;
         for (char ch : address) {
             if (ch == '.') {
@@ -22,6 +22,5 @@ public:
 };
 
 int main() {
-    Solution obj;
-    cout << obj.defangIPaddr("1.1.1.1");
+    cout << Solution::defangIPaddr("1.1.1.1");
 }

@@ -10,7 +10,7 @@ int lookup[16] = {0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4};
 class Solution {
 
 public:
-    int hammingDistance(int x, int y) {
+    static int hammingDistance(int x, int y) {
         return (int) countSetBits6((unsigned int) x ^ (unsigned int) y);
     }
 
@@ -75,7 +75,6 @@ private:
 };
 
 int main() {
-    Solution obj;
     // expected: 2
-    cout << obj.hammingDistance(1, 4);
+    cout << Solution::hammingDistance(1, 4);
 }

@@ -9,7 +9,7 @@ using namespace std;
 class Solution {
 public:
     // O(n log n) time, where n is the number of cells
-    vector<vector<int>> allCellsDistOrder(int R, int C, int r0, int c0) {
+    static vector<vector<int>> allCellsDistOrder(int R, int C, int r0, int c0) {
         vector<vector<int>> cells;
 
         for (int i = 0; i < R; i++)
@@ -25,14 +25,13 @@ public:
         return cells;
     }
 
-    // O(n) time
-    vector<vector<int>> allCellsDistOrderLinear(int R, int C, int r0, int c0) {
+    // TODO: O(n) time
+    static void allCellsDistOrderLinear(int R, int C, int r0, int c0) {
     }
 };
 
 int main() {
-    Solution obj;
-    vector<vector<int>> grid = obj.allCellsDistOrder(1, 2, 0, 0);
+    vector<vector<int>> grid = Solution::allCellsDistOrder(1, 2, 0, 0);
     for (const vector<int> &v : grid) {
         for (int x : v) cout << x << ' ';
         cout << endl;
