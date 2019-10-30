@@ -1,0 +1,1 @@
+This follows the 2 pointer method. It is a very useful trick to set your mind in the right direction.
