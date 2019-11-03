@@ -1,0 +1,1 @@
+add_executable(5248 5248.cpp)
