@@ -62,14 +62,12 @@ public:
 
 int main() {
   // Output: 6
-  string w[] = {"cat", "bt", "hat", "tree"};
-  vector<string> words(w, w + sizeof(w) / sizeof(string));
+  vector<string> words = {"cat", "bt", "hat", "tree"};
   printf("%d\n", Solution::countCharacters(words, "atach"));
   printf("%d\n", Solution::countCharacters2(words, "atach"));
 
   // Output: 10
-  string w2[] = {"hello", "world", "leetcode"};
-  vector<string> words2(w2, w2 + sizeof(w2) / sizeof(string));
-  printf("%d\n", Solution::countCharacters(words2, "welldonehoneyr"));
-  printf("%d\n", Solution::countCharacters2(words2, "welldonehoneyr"));
+  words = {"hello", "world", "leetcode"};
+  printf("%d\n", Solution::countCharacters(words, "welldonehoneyr"));
+  printf("%d\n", Solution::countCharacters2(words, "welldonehoneyr"));
 }
