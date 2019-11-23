@@ -65,3 +65,4 @@ add_executable(construct-binary-search-tree-from-preorder-traversal construct-bi
 add_executable(invert-binary-tree invert-binary-tree.cpp)
 add_executable(baseball-game baseball-game.cpp)
 add_executable(goat-latin goat-latin.cpp)
+add_executable(reshape-the-matrix reshape-the-matrix.cpp)
