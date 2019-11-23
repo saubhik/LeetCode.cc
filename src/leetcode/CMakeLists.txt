@@ -62,3 +62,4 @@ add_executable(uncommon-words-from-two-sentences uncommon-words-from-two-sentenc
 add_executable(trim-a-binary-search-tree trim-a-binary-search-tree.cpp)
 add_executable(next-greater-element-i next-greater-element-i.cpp)
 add_executable(construct-binary-search-tree-from-preorder-traversal construct-binary-search-tree-from-preorder-traversal.cpp)
+add_executable(invert-binary-tree invert-binary-tree.cpp)
