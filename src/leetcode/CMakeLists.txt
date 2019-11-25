@@ -70,3 +70,4 @@ add_executable(number-of-lines-to-write-string number-of-lines-to-write-string.c
 add_executable(fizz-buzz fizz-buzz.cpp)
 add_executable(distribute-candies-to-people distribute-candies-to-people.cpp)
 add_executable(complement-of-base-10-integer complement-of-base-10-integer.cpp)
+add_executable(average-of-levels-in-binary-tree average-of-levels-in-binary-tree.cpp)
