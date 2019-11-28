@@ -74,3 +74,4 @@ add_executable(average-of-levels-in-binary-tree average-of-levels-in-binary-tree
 add_executable(reverse-linked-list reverse-linked-list.cpp)
 add_executable(largest-perimeter-triangle largest-perimeter-triangle.cpp)
 add_executable(n-th-tribonacci-number n-th-tribonacci-number.cpp)
+add_executable(intersection-of-two-arrays intersection-of-two-arrays.cpp)
