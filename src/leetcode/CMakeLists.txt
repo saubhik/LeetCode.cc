@@ -82,3 +82,4 @@ add_executable(longest-uncommon-subsequence-i longest-uncommon-subsequence-i.cpp
 add_executable(delete-node-in-a-linked-list delete-node-in-a-linked-list.cpp)
 add_executable(reverse-only-letters reverse-only-letters.cpp)
 add_executable(monotonic-array monotonic-array.cpp)
+add_executable(nim-game nim-game.cpp)
