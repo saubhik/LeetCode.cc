@@ -87,3 +87,4 @@ add_executable(partition-array-into-three-parts-with-equal-sum partition-array-i
 add_executable(rotated-digits rotated-digits.cpp)
 add_executable(max-consecutive-ones max-consecutive-ones.cpp)
 add_executable(shortest-completing-word shortest-completing-word.cpp)
+add_executable(distance-between-bus-stops distance-between-bus-stops.cpp)
