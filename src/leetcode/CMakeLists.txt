@@ -95,3 +95,4 @@ add_executable(find-all-numbers-disappeared-in-an-array find-all-numbers-disappe
 add_executable(count-binary-substrings count-binary-substrings.cpp)
 add_executable(two-city-scheduling two-city-scheduling.cpp)
 add_executable(add-digits add-digits.cpp)
+add_executable(majority-element majority-element.cpp)
