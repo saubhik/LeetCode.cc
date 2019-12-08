@@ -49,6 +49,9 @@ public:
   // much much cleaner
   // prev -> stores count of 0s or 1s, whichever occurred previously
   // cur -> stores count of 0s or 1s, whichever occurs now
+  // What can I learn from this?
+  // Maybe if I thought about one layer of abstraction above 0s and 1s, I could
+  // have come up with this.
   static int countBinarySubstrings(string s) {
     int ans = 0, prev = 0, cur = 1, n = s.length();
     for (int i = 1; i < n; ++i) {
