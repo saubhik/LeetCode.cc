@@ -107,3 +107,4 @@ add_executable(greatest-common-divisor-of-strings greatest-common-divisor-of-str
 add_executable(convert-bst-to-greater-tree convert-bst-to-greater-tree.cpp)
 add_executable(excel-sheet-column-number excel-sheet-column-number.cpp)
 add_executable(detect-capital detect-capital.cpp)
+add_executable(construct-string-from-binary-tree construct-string-from-binary-tree.cpp)
