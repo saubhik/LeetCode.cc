@@ -105,3 +105,4 @@ add_executable(best-time-to-buy-and-sell-stock-ii best-time-to-buy-and-sell-stoc
 add_executable(two-sum-iv-input-is-a-bst two-sum-iv-input-is-a-bst.cpp)
 add_executable(greatest-common-divisor-of-strings greatest-common-divisor-of-strings.cpp)
 add_executable(convert-bst-to-greater-tree convert-bst-to-greater-tree.cpp)
+add_executable(excel-sheet-column-number excel-sheet-column-number.cpp)
