@@ -112,3 +112,4 @@ add_executable(two-sum-ii-input-array-is-sorted two-sum-ii-input-array-is-sorted
 add_executable(flood-fill flood-fill.cpp)
 add_executable(cousins-in-binary-tree cousins-in-binary-tree.cpp)
 add_executable(same-tree same-tree.cpp)
+add_executable(minimum-absolute-difference-in-bst minimum-absolute-difference-in-bst.cpp)
