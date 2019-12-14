@@ -111,3 +111,4 @@ add_executable(construct-string-from-binary-tree construct-string-from-binary-tr
 add_executable(two-sum-ii-input-array-is-sorted two-sum-ii-input-array-is-sorted.cpp)
 add_executable(flood-fill flood-fill.cpp)
 add_executable(cousins-in-binary-tree cousins-in-binary-tree.cpp)
+add_executable(same-tree same-tree.cpp)
