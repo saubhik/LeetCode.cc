@@ -37,3 +37,35 @@ $T(5) = k(k-1)(k-2)(k-3)(k-4) + 5 \cdot k_{4}'(k-1) + 10 \cdot k_{3}'(k-1)(k-2) 
 This line of reasoning continues till we have $k$ items. What about the case when we have $2$ similar items
 
 For $k+1$ items, we need to have at least $1$ similar item. That similar item could be from any one of the $k$ groups, so $k$ ways of choosing the similar item.
+
+---
+
+## Re-take on Sunday, December 15, 2019
+
+Thinking about a completely different way of solving it. This is very much like solving the "enumerating subsets" problem. We can solve it thinking about whether to include the element in considerating to our sequence in consideration or not. So this is a recursive solution.
+
+```cpp
+void enumerate(string& s, string &cand, int i, set<string>& seqs) {
+  if (i == s.length())
+    seqs.add(cand);
+  
+  enumerate(s, cand, i+1, seqs); // not including i
+  enumerate(s, cand + s[i], i+1, seqs); // including i
+}
+```
+
+Let's test this fast using a 2-element string `"AB"`. `enumerate("AB", "", 0, {})` is called. This calls `enumerate("AB", "", 1, {})`. This calls `enumerate("AB", "", 2, {})`. Now `seqs` gets updated from `{}` to `{""}`. Then `enumerate("AB", "B", 2, {""})` is called. Then `seqs` gets updated to `{"", "B"}`. Then `enumerate("AB", "A")`
+
+```
+e("", 0, {})
+		-> e("", 1, {})
+				-> e("", 2, {})
+				-> e("B", 2, {""})
+  	-> e("A", 1, {"", "B"})
+  			-> e("A", 2, {"", "B"})
+  			-> e("AB", 2, {"", "B", "A"})
+```
+
+Now, `seqs == {"", "B", "A", "AB"}`.
+
+The time complexity is `O(2**n)` and space complexity is `O(n)`.
