@@ -116,3 +116,4 @@ add_executable(minimum-absolute-difference-in-bst minimum-absolute-difference-in
 add_executable(ransom-note ransom-note.cpp)
 add_executable(lemonade-change lemonade-change.cpp)
 add_executable(first-unique-character-in-a-string first-unique-character-in-a-string.cpp)
+add_executable(degree-of-an-array degree-of-an-array.cpp)

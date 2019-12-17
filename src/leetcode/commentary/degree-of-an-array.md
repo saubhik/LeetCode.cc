@@ -1,0 +1,3 @@
+# Degree of an Array
+
+Degree of an array is the maximum frequency of any of its elements. We need to find the smallest possible length of a (contiguous) subarray of the given array, which has the same degree as the given array. We can store the distance between the first and last positions of each element in a hashmap. Also, while traversing the array, we need to keep count of each element. Now what if we have two elements with same count? Then our answer would be the element with the smallest distance. So, we need to iterate through the hashmap, for finding the element with smallest distance.
