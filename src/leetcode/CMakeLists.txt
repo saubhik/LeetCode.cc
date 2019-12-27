@@ -124,3 +124,4 @@ add_executable(subtract-the-product-and-sum-of-digits-of-an-integer subtract-the
 add_executable(sum-of-two-integers sum-of-two-integers.cpp)
 add_executable(sum-of-left-leaves sum-of-left-leaves.cpp)
 add_executable(find-numbers-with-even-number-of-digits find-numbers-with-even-number-of-digits.cpp)
+add_executable(compare-strings-by-frequency-of-the-smallest-character compare-strings-by-frequency-of-the-smallest-character.cpp)
