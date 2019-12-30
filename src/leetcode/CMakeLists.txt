@@ -127,3 +127,4 @@ add_executable(find-numbers-with-even-number-of-digits find-numbers-with-even-nu
 add_executable(compare-strings-by-frequency-of-the-smallest-character compare-strings-by-frequency-of-the-smallest-character.cpp)
 add_executable(binary-search binary-search.cpp)
 add_executable(missing-number missing-number.cpp)
+add_executable(minimum-moves-to-equal-array-elements minimum-moves-to-equal-array-elements.cpp)
