@@ -128,3 +128,4 @@ add_executable(compare-strings-by-frequency-of-the-smallest-character compare-st
 add_executable(binary-search binary-search.cpp)
 add_executable(missing-number missing-number.cpp)
 add_executable(minimum-moves-to-equal-array-elements minimum-moves-to-equal-array-elements.cpp)
+add_executable(find-the-town-judge find-the-town-judge.cpp)
