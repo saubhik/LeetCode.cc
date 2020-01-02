@@ -6,6 +6,9 @@ using namespace std;
 
 class Solution {
 public:
+  // Runtime: 148 ms, faster than 81.59% of C++ online submissions for Image
+  // Smoother. Memory Usage: 17.5 MB, less than 100.00% of C++ online
+  // submissions for Image Smoother.
   // O(mn) time, O(1) space.
   static vector<vector<int>> imageSmoother(vector<vector<int>> &M) {
     int m = M.size(), n = M[0].size(), count;
