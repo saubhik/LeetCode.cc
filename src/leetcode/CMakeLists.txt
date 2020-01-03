@@ -131,3 +131,4 @@ add_executable(minimum-moves-to-equal-array-elements minimum-moves-to-equal-arra
 add_executable(find-the-town-judge find-the-town-judge.cpp)
 add_executable(image-smoother image-smoother.cpp)
 add_executable(minimum-index-sum-of-two-lists minimum-index-sum-of-two-lists.cpp)
+add_executable(minimum-time-visiting-all-points minimum-time-visiting-all-points.cpp)
