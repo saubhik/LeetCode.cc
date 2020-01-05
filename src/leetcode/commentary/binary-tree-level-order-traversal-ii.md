@@ -1,0 +1,4 @@
+Binary Tree Level Order Traversal II
+
+There are more than a single way to do this. The first is plain BFS with a trick. Somehow, we need to track the levels. While appending to a queue, we also append to our traversal array. We want to make sure that we are appending all the nodes in the same level in a single iteration. We need to use the size of the queue, to consider all the nodes in a single level, in a single iteration. During every step of the iteration, we are considering all the nodes in a single level and pushing the children in the queue. So the maximum size of the queue at any point of time, would be the size of the largest level in the tree. If a tree has $n$ nodes, then the size of the largest level (the leaf level) would be $O(n/2)=O(n)$. This is the space complexity. Since, we are considering each node individually, the time complexity is also $O(n)$.
+
