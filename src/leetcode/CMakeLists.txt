@@ -138,3 +138,4 @@ add_executable(binary-tree-level-order-traversal-ii binary-tree-level-order-trav
 add_executable(relative-ranks relative-ranks.cpp)
 add_executable(1-bit-and-2-bit-characters 1-bit-and-2-bit-characters.cpp)
 add_executable(range-addition-ii range-addition-ii.cpp)
+add_executable(longest-palindrome longest-palindrome.cpp)
