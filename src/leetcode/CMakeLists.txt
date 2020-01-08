@@ -136,3 +136,4 @@ add_executable(replace-elements-with-greatest-element-on-right-side replace-elem
 add_executable(keyboard-row keyboard-row.cpp)
 add_executable(binary-tree-level-order-traversal-ii binary-tree-level-order-traversal-ii.cpp)
 add_executable(relative-ranks relative-ranks.cpp)
+add_executable(1-bit-and-2-bit-characters 1-bit-and-2-bit-characters.cpp)
