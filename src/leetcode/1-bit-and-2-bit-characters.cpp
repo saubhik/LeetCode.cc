@@ -6,6 +6,10 @@ using namespace std;
 
 class Solution {
 public:
+  // Runtime: 0 ms, faster than 100.00% of C++ online submissions for 1-bit and
+  // 2-bit Characters. Memory Usage: 8.6 MB, less than 100.00% of C++ online
+  // submissions for 1-bit and 2-bit Characters.
+  //
   // O(n) time, O(1) space.
   static bool isOneBitCharacter(vector<int> &bits) {
     int n = bits.size();
