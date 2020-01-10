@@ -1,5 +1,3 @@
-# leethal-plusplus
-
 ```
 888                   888    888               888                 
 888                   888    888               888                 
@@ -10,7 +8,8 @@
 888 Y8b.     Y8b.     Y88b.  888  888 888  888 888                 
 888  "Y8888   "Y8888   "Y888 888  888 "Y888888 888                 
 ```
-                                                    
+
+## leethal++
 LeetCode solutions (and more) in C++.
 
 ### RULES:
