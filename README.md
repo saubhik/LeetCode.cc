@@ -1,11 +1,11 @@
 # leethal-plusplus
- _              _    _             _               
-| |            | |  | |           | |   _      _   
-| |  ___   ___ | |_ | |__    __ _ | | _| |_  _| |_ 
-| | / _ \ / _ \| __|| '_ \  / _` || ||_   _||_   _|
-| ||  __/|  __/| |_ | | | || (_| || |  |_|    |_|  
-|_| \___| \___| \__||_| |_| \__,_||_|              
-                                                                                                                                                           
+
+e     eeee eeee eeeee e   e eeeee e                 
+8     8    8      8   8   8 8   8 8       8     8   
+8e    8eee 8eee   8e  8eee8 8eee8 8e    ee8ee ee8ee 
+88    88   88     88  88  8 88  8 88      8     8   
+88eee 88ee 88ee   88  88  8 88  8 88eee             
+                                                    
 LeetCode solutions (and more) in C++.
 
 ### RULES:
