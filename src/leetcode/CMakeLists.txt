@@ -143,3 +143,4 @@ add_executable(find-n-unique-integers-sum-up-to-zero find-n-unique-integers-sum-
 add_executable(deepest-leaves-sum deepest-leaves-sum.cpp)
 add_executable(positions-of-large-groups positions-of-large-groups.cpp)
 add_executable(group-the-people-given-the-group-size-they-belong-to group-the-people-given-the-group-size-they-belong-to.cpp)
+add_executable(diameter-of-binary-tree diameter-of-binary-tree.cpp)
