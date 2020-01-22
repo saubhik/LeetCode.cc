@@ -1,0 +1,3 @@
+[submodule "src/epi/EPIJudge"]
+	path = src/epi/EPIJudge
+	url = https://github.com/adnanaziz/EPIJudge.git
