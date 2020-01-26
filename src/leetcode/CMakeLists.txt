@@ -146,3 +146,4 @@ add_executable(group-the-people-given-the-group-size-they-belong-to group-the-pe
 add_executable(diameter-of-binary-tree diameter-of-binary-tree.cpp)
 add_executable(remove-element remove-element.cpp)
 add_executable(decompress-run-length-encoded-list decompress-run-length-encoded-list.cpp)
+add_executable(all-paths-from-source-to-target all-paths-from-source-to-target.cpp)
