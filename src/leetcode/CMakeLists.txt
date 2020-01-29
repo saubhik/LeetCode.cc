@@ -150,3 +150,4 @@ add_executable(all-paths-from-source-to-target all-paths-from-source-to-target.c
 add_executable(maximum-69-number maximum-69-number.cpp)
 add_executable(sum-of-nodes-with-even-valued-grandparent sum-of-nodes-with-even-valued-grandparent.cpp)
 add_executable(decrypt-string-from-alphabet-to-integer-mapping decrypt-string-from-alphabet-to-integer-mapping.cpp)
+add_executable(maximum-product-of-three-numbers maximum-product-of-three-numbers.cpp)
