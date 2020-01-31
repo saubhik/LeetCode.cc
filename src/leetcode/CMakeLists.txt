@@ -154,3 +154,4 @@ add_executable(maximum-product-of-three-numbers maximum-product-of-three-numbers
 add_executable(play-with-chips play-with-chips.cpp)
 add_executable(rank-transform-of-an-array rank-transform-of-an-array.cpp)
 add_executable(sort-the-matrix-diagonally sort-the-matrix-diagonally.cpp)
+add_executable(all-elements-in-two-binary-search-trees all-elements-in-two-binary-search-trees.cpp)
