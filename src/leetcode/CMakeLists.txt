@@ -152,3 +152,4 @@ add_executable(sum-of-nodes-with-even-valued-grandparent sum-of-nodes-with-even-
 add_executable(decrypt-string-from-alphabet-to-integer-mapping decrypt-string-from-alphabet-to-integer-mapping.cpp)
 add_executable(maximum-product-of-three-numbers maximum-product-of-three-numbers.cpp)
 add_executable(play-with-chips play-with-chips.cpp)
+add_executable(rank-transform-of-an-array rank-transform-of-an-array.cpp)
