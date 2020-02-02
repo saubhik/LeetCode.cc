@@ -34,11 +34,34 @@ public:
   }
 };
 
+class Solution2 {
+public:
+  // Runtime: 16 ms, faster than 97.22% of C++ online submissions for Delete
+  // Leaves With a Given Value. Memory Usage: 21.6 MB, less than 100.00% of C++
+  // online submissions for Delete Leaves With a Given Value.
+  //
+  // more cleaner, since we do not want to store extra parent node in the
+  // recursion stack storage. Inspired by Lee's solution.
+  static TreeNode *removeLeafNodes(TreeNode *node, int &target) {
+    if (!node)
+      return nullptr;
+    node->left = removeLeafNodes(node->left, target);
+    node->right = removeLeafNodes(node->right, target);
+    return !node->left && !node->right && node->val == target ? nullptr : node;
+  }
+};
+
 int main() {
   vector<int> treeVec = {1, 2, 3, 2, -1, 2, 4};
   auto node = (TreeNode *)vecToBTree(treeVec);
   int target = 2;
   TreeNode *ans = Solution::removeLeafNodes(node, target);
+  showBTree((BinTree<int>::Node *)(ans));
+
+  printf("\n---\n");
+
+  node = (TreeNode *)vecToBTree(treeVec);
+  ans = Solution2::removeLeafNodes(node, target);
   showBTree((BinTree<int>::Node *)(ans));
 
   printf("\n---\n");
@@ -51,10 +74,22 @@ int main() {
 
   printf("\n---\n");
 
+  node = (TreeNode *)vecToBTree(treeVec);
+  ans = Solution2::removeLeafNodes(node, target);
+  showBTree((BinTree<int>::Node *)(ans));
+
+  printf("\n---\n");
+
   treeVec = {1, 2, -1, 2, -1, 2};
   node = (TreeNode *)vecToBTree(treeVec);
   target = 2;
   ans = Solution::removeLeafNodes(node, target);
+  showBTree((BinTree<int>::Node *)(ans));
+
+  printf("\n---\n");
+
+  node = (TreeNode *)vecToBTree(treeVec);
+  ans = Solution2::removeLeafNodes(node, target);
   showBTree((BinTree<int>::Node *)(ans));
 
   printf("\n---\n");
@@ -67,10 +102,22 @@ int main() {
 
   printf("\n---\n");
 
+  node = (TreeNode *)vecToBTree(treeVec);
+  ans = Solution2::removeLeafNodes(node, target);
+  showBTree((BinTree<int>::Node *)(ans));
+
+  printf("\n---\n");
+
   treeVec = {1, 2, 3};
   node = (TreeNode *)vecToBTree(treeVec);
   target = 1;
   ans = Solution::removeLeafNodes(node, target);
+  showBTree((BinTree<int>::Node *)(ans));
+
+  printf("\n---\n");
+
+  node = (TreeNode *)vecToBTree(treeVec);
+  ans = Solution2::removeLeafNodes(node, target);
   showBTree((BinTree<int>::Node *)(ans));
 
   printf("\n---");
