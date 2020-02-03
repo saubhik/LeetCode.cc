@@ -27,6 +27,33 @@ public:
   }
 };
 
+class Solution2 {
+public:
+  static bool containsOne(TreeNode *node) {
+    if (!node)
+      return false;
+    bool a1 = containsOne(node->left);
+    bool a2 = containsOne(node->right);
+    if (!a1)
+      node->left = nullptr;
+    if (!a2)
+      node->right = nullptr;
+    return node->val || a1 || a2;
+  }
+
+  // O(n) run-time, since we we process each node once.
+  // O(h) space, where h is the height of the tree. This
+  // represents the size of the implicit call stack in
+  // our recursion. Courtesy: awice.
+  //
+  // Runtime: 4 ms, faster than 71.14% of C++ online submissions for Binary Tree
+  // Pruning. Memory Usage: 11.3 MB, less than 7.14% of C++ online submissions
+  // for Binary Tree Pruning.
+  static TreeNode *pruneTree(TreeNode *root) {
+    return containsOne(root) ? root : nullptr;
+  }
+};
+
 int main() {
   vector<int> arr = {1, -1, 0, 0, 1};
   auto node = (TreeNode *)vecToBTree(arr);
