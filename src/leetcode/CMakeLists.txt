@@ -159,3 +159,4 @@ add_executable(delete-leaves-with-a-given-value delete-leaves-with-a-given-value
 add_executable(binary-tree-pruning binary-tree-pruning.cpp)
 add_executable(the-k-weakest-rows-in-a-matrix the-k-weakest-rows-in-a-matrix.cpp)
 add_executable(last-stone-weight last-stone-weight.cpp)
+add_executable(remove-palindromic-subsequences remove-palindromic-subsequences.cpp)
