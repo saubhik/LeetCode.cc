@@ -161,3 +161,4 @@ add_executable(the-k-weakest-rows-in-a-matrix the-k-weakest-rows-in-a-matrix.cpp
 add_executable(last-stone-weight last-stone-weight.cpp)
 add_executable(remove-palindromic-subsequences remove-palindromic-subsequences.cpp)
 add_executable(minimum-distance-between-bst-nodes minimum-distance-between-bst-nodes.cpp)
+add_executable(binary-number-with-alternating-bits binary-number-with-alternating-bits.cpp)
