@@ -163,3 +163,4 @@ add_executable(remove-palindromic-subsequences remove-palindromic-subsequences.c
 add_executable(minimum-distance-between-bst-nodes minimum-distance-between-bst-nodes.cpp)
 add_executable(binary-number-with-alternating-bits binary-number-with-alternating-bits.cpp)
 add_executable(duplicate-zeros duplicate-zeros.cpp)
+add_executable(add-strings add-strings.cpp)
