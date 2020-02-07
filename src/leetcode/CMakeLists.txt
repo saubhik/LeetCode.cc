@@ -164,3 +164,4 @@ add_executable(minimum-distance-between-bst-nodes minimum-distance-between-bst-n
 add_executable(binary-number-with-alternating-bits binary-number-with-alternating-bits.cpp)
 add_executable(duplicate-zeros duplicate-zeros.cpp)
 add_executable(add-strings add-strings.cpp)
+add_executable(can-place-flowers can-place-flowers.cpp)
