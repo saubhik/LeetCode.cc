@@ -165,3 +165,4 @@ add_executable(binary-number-with-alternating-bits binary-number-with-alternatin
 add_executable(duplicate-zeros duplicate-zeros.cpp)
 add_executable(add-strings add-strings.cpp)
 add_executable(can-place-flowers can-place-flowers.cpp)
+add_executable(shortest-unsorted-continuous-subarray shortest-unsorted-continuous-subarray.cpp)
