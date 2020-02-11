@@ -169,3 +169,4 @@ add_executable(shortest-unsorted-continuous-subarray shortest-unsorted-continuou
 add_executable(partition-labels partition-labels.cpp)
 add_executable(happy-number happy-number.cpp)
 add_executable(lowest-common-ancestor-of-a-binary-search-tree lowest-common-ancestor-of-a-binary-search-tree.cpp)
+add_executable(power-of-three power-of-three.cpp)
