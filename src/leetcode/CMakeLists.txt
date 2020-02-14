@@ -172,3 +172,4 @@ add_executable(lowest-common-ancestor-of-a-binary-search-tree lowest-common-ance
 add_executable(power-of-three power-of-three.cpp)
 add_executable(number-of-steps-to-reduce-a-number-to-zero number-of-steps-to-reduce-a-number-to-zero.cpp)
 add_executable(find-smallest-letter-greater-than-target find-smallest-letter-greater-than-target.cpp)
+add_executable(minimum-number-of-steps-to-make-two-strings-anagram minimum-number-of-steps-to-make-two-strings-anagram.cpp)
