@@ -174,3 +174,4 @@ add_executable(number-of-steps-to-reduce-a-number-to-zero number-of-steps-to-red
 add_executable(find-smallest-letter-greater-than-target find-smallest-letter-greater-than-target.cpp)
 add_executable(minimum-number-of-steps-to-make-two-strings-anagram minimum-number-of-steps-to-make-two-strings-anagram.cpp)
 add_executable(minimum-add-to-make-parentheses-valid minimum-add-to-make-parentheses-valid.cpp)
+add_executable(matrix-block-sum matrix-block-sum.cpp)
