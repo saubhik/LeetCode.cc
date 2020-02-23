@@ -175,3 +175,4 @@ add_executable(find-smallest-letter-greater-than-target find-smallest-letter-gre
 add_executable(minimum-number-of-steps-to-make-two-strings-anagram minimum-number-of-steps-to-make-two-strings-anagram.cpp)
 add_executable(minimum-add-to-make-parentheses-valid minimum-add-to-make-parentheses-valid.cpp)
 add_executable(matrix-block-sum matrix-block-sum.cpp)
+add_executable(construct-the-rectangle construct-the-rectangle.cpp)
