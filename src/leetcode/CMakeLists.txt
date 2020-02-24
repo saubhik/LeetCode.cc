@@ -176,3 +176,4 @@ add_executable(minimum-number-of-steps-to-make-two-strings-anagram minimum-numbe
 add_executable(minimum-add-to-make-parentheses-valid minimum-add-to-make-parentheses-valid.cpp)
 add_executable(matrix-block-sum matrix-block-sum.cpp)
 add_executable(construct-the-rectangle construct-the-rectangle.cpp)
+add_executable(balanced-binary-tree balanced-binary-tree.cpp)
