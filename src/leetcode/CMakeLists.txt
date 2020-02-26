@@ -177,3 +177,4 @@ add_executable(minimum-add-to-make-parentheses-valid minimum-add-to-make-parenth
 add_executable(matrix-block-sum matrix-block-sum.cpp)
 add_executable(construct-the-rectangle construct-the-rectangle.cpp)
 add_executable(balanced-binary-tree balanced-binary-tree.cpp)
+add_executable(maximum-level-sum-of-a-binary-tree maximum-level-sum-of-a-binary-tree.cpp)
