@@ -181,3 +181,4 @@ add_executable(maximum-level-sum-of-a-binary-tree maximum-level-sum-of-a-binary-
 add_executable(validate-binary-tree-nodes validate-binary-tree-nodes.cpp)
 add_executable(path-in-zigzag-labelled-binary-tree path-in-zigzag-labelled-binary-tree.cpp)
 add_executable(subsets subsets.cpp)
+add_executable(battleships-in-a-board battleships-in-a-board.cpp)
