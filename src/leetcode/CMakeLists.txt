@@ -183,3 +183,4 @@ add_executable(path-in-zigzag-labelled-binary-tree path-in-zigzag-labelled-binar
 add_executable(subsets subsets.cpp)
 add_executable(battleships-in-a-board battleships-in-a-board.cpp)
 add_executable(counting-bits counting-bits.cpp)
+add_executable(find-and-replace-pattern find-and-replace-pattern.cpp)
