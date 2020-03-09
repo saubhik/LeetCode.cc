@@ -10,7 +10,7 @@
 ```
 
 ## leethal++
-LeetCode solutions & EPI solutions in C++.
+LeetCode solutions in C++.
 
 ### RULES:
 0. _Consistency_: A tiny step every day.

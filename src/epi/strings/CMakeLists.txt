@@ -1,1 +1,0 @@
-add_executable(7.1 string_integer_interconversion.cpp)
