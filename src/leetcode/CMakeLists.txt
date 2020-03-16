@@ -190,3 +190,4 @@ add_executable(find-mode-in-binary-search-tree find-mode-in-binary-search-tree.c
 add_executable(contains-duplicate-ii contains-duplicate-ii.cpp)
 add_executable(power-of-two power-of-two.cpp)
 add_executable(convert-integer-to-the-sum-of-two-no-zero-integers convert-integer-to-the-sum-of-two-no-zero-integers.cpp)
+add_executable(min-stack min-stack.cpp)
