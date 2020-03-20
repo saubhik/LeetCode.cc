@@ -193,3 +193,4 @@ add_executable(convert-integer-to-the-sum-of-two-no-zero-integers convert-intege
 add_executable(min-stack min-stack.cpp)
 add_executable(reverse-string-ii reverse-string-ii.cpp)
 add_executable(house-robber house-robber.cpp)
+add_executable(path-sum-iii path-sum-iii.cpp)
