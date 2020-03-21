@@ -60,12 +60,39 @@ public:
   }
 };
 
+class Solution2 {
+private:
+  static int dfs(TreeNode *root, int &tilt) {
+    if (!root)
+      return 0;
+    int left = dfs(root->left, tilt);
+    int right = dfs(root->right, tilt);
+    tilt += abs(left - right);
+    return left + right + root->val;
+  }
+
+public:
+  // Runtime: 16 ms, faster than 92.29% of C++ online submissions for Binary
+  // Tree Tilt. Memory Usage: 19.4 MB, less than 100.00% of C++ online
+  // submissions for Binary Tree Tilt.
+  //
+  // O(n) time, O(n) space.
+  // no need for extra storage to store tree sums.
+  static int findTilt(TreeNode *root) {
+    int tilt = 0;
+    dfs(root, tilt);
+    return tilt;
+  }
+};
+
 int main() {
   std::vector<int> nodes = {1, 2, 3};
   auto root = (TreeNode *)vecToBTree(nodes);
   assert(Solution::findTilt(root) == 1);
+  assert(Solution2::findTilt(root) == 1);
 
   nodes = {1, 2, 5, 3, 4, 6, 7};
   root = (TreeNode *)vecToBTree(nodes);
   assert(Solution::findTilt(root) == 11);
+  assert(Solution2::findTilt(root) == 11);
 }
