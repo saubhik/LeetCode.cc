@@ -44,20 +44,20 @@ public:
 int main() {
   std::vector<int> nums, ans;
 
-  //  nums = {1, 2, 3, 4, 5, 6, 7};
-  //  ans = {5, 6, 7, 1, 2, 3, 4};
-  //  Solution::rotate(nums, 3);
-  //  assert(nums == ans);
-  //
-  //  nums = {1, 2, 3, 4, 5, 6, 7};
-  //  ans = {5, 6, 7, 1, 2, 3, 4};
-  //  Solution2::rotate(nums, 3);
-  //  assert(nums == ans);
-  //
-  //  nums = {-1, -100, 3, 99};
-  //  ans = {3, 99, -1, -100};
-  //  Solution::rotate(nums, 2);
-  //  assert(nums == ans);
+  nums = {1, 2, 3, 4, 5, 6, 7};
+  ans = {5, 6, 7, 1, 2, 3, 4};
+  Solution::rotate(nums, 3);
+  assert(nums == ans);
+
+  nums = {1, 2, 3, 4, 5, 6, 7};
+  ans = {5, 6, 7, 1, 2, 3, 4};
+  Solution2::rotate(nums, 3);
+  assert(nums == ans);
+
+  nums = {-1, -100, 3, 99};
+  ans = {3, 99, -1, -100};
+  Solution::rotate(nums, 2);
+  assert(nums == ans);
 
   nums = {-1, -100, 3, 99};
   ans = {3, 99, -1, -100};
