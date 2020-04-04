@@ -200,4 +200,5 @@ add_executable(long-pressed-name long-pressed-name.cpp)
 add_executable(number-of-segments-in-a-string number-of-segments-in-a-string.cpp)
 add_executable(number-of-equivalent-domino-pairs number-of-equivalent-domino-pairs.cpp)
 add_executable(rotate-array rotate-array.cpp)
+add_executable(largest-number-at-least-twice-of-others largest-number-at-least-twice-of-others.cpp)
 
