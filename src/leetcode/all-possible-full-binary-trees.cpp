@@ -13,24 +13,33 @@ struct TreeNode {
 };
 
 class Solution {
-private:
-  std::vector<std::vector<TreeNode *>> memo{21};
-
 public:
+  std::unordered_map<int, std::vector<TreeNode *>> memo;
+
+  // Runtime: 184 ms, faster than 39.45% of C++ online submissions for All
+  // Possible Full Binary Trees. Memory Usage: 32.8 MB, less than 50.00% of C++
+  // online submissions for All Possible Full Binary Trees.
+  //
   // O(2^N) (Catalan number), O(2^N) space.
   std::vector<TreeNode *> allPossibleFBT(int N) {
-    if (!memo[N].empty()) {
+    if (memo.find(N) != memo.end()) {
       return memo[N];
     }
 
-    if (N == 1)
-      return memo[N] = {new TreeNode(0)};
-
     std::vector<TreeNode *> trees;
+
+    if (N == 1) {
+      trees.emplace_back(new TreeNode(0));
+      memo[N] = trees;
+      return trees;
+    }
+
     for (int i = 1; i < N; i += 2) {
-      for (auto &left : allPossibleFBT(i)) {
-        for (auto &right : allPossibleFBT(N - 1 - i)) {
-          auto root = new TreeNode(0);
+      std::vector<TreeNode *> lefts = allPossibleFBT(i);
+      std::vector<TreeNode *> rights = allPossibleFBT(N - i - 1);
+      for (TreeNode *left : lefts) {
+        for (TreeNode *right : rights) {
+          auto *root = new TreeNode(0);
           root->left = left;
           root->right = right;
           trees.push_back(root);
@@ -38,7 +47,8 @@ public:
       }
     }
 
-    return memo[N] = trees;
+    memo[N] = trees;
+    return trees;
   }
 };
 
