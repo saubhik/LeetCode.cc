@@ -202,3 +202,4 @@ add_executable(number-of-equivalent-domino-pairs number-of-equivalent-domino-pai
 add_executable(rotate-array rotate-array.cpp)
 add_executable(largest-number-at-least-twice-of-others largest-number-at-least-twice-of-others.cpp)
 add_executable(maximize-distance-to-closest-person maximize-distance-to-closest-person.cpp)
+add_executable(all-possible-full-binary-trees all-possible-full-binary-trees.cpp)
