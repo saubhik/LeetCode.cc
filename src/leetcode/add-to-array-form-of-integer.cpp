@@ -68,17 +68,17 @@ public:
 int main() {
   std::vector<int> A, x;
 
-  //  A = {1, 2, 0, 0}, x = {1, 2, 3, 4};
-  //  assert(Solution::addToArrayForm(A, 34) == x);
-  //  assert(Solution2::addToArrayForm(A, 34) == x);
-  //
-  //  A = {2, 7, 4}, x = {4, 5, 5};
-  //  assert(Solution::addToArrayForm(A, 181) == x);
-  //  assert(Solution2::addToArrayForm(A, 181) == x);
-  //
-  //  A = {2, 1, 5}, x = {1, 0, 2, 1};
-  //  assert(Solution::addToArrayForm(A, 806) == x);
-  //  assert(Solution2::addToArrayForm(A, 806) == x);
+  A = {1, 2, 0, 0}, x = {1, 2, 3, 4};
+  assert(Solution::addToArrayForm(A, 34) == x);
+  assert(Solution2::addToArrayForm(A, 34) == x);
+
+  A = {2, 7, 4}, x = {4, 5, 5};
+  assert(Solution::addToArrayForm(A, 181) == x);
+  assert(Solution2::addToArrayForm(A, 181) == x);
+
+  A = {2, 1, 5}, x = {1, 0, 2, 1};
+  assert(Solution::addToArrayForm(A, 806) == x);
+  assert(Solution2::addToArrayForm(A, 806) == x);
 
   A = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9}, x = {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
   assert(Solution::addToArrayForm(A, 1) == x);
