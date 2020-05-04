@@ -204,3 +204,4 @@ add_executable(largest-number-at-least-twice-of-others largest-number-at-least-t
 add_executable(maximize-distance-to-closest-person maximize-distance-to-closest-person.cpp)
 add_executable(all-possible-full-binary-trees all-possible-full-binary-trees.cpp)
 add_executable(add-to-array-form-of-integer add-to-array-form-of-integer.cpp)
+add_executable(first-bad-version first-bad-version.cpp)
