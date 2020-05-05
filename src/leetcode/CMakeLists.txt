@@ -206,3 +206,6 @@ add_executable(all-possible-full-binary-trees all-possible-full-binary-trees.cpp
 add_executable(add-to-array-form-of-integer add-to-array-form-of-integer.cpp)
 add_executable(first-bad-version first-bad-version.cpp)
 add_executable(check-if-it-is-a-straight-line check-if-it-is-a-straight-line.cpp)
+add_executable(find-all-duplicates-in-an-array find-all-duplicates-in-an-array.cpp)
+add_executable(queue-reconstruction-by-height queue-reconstruction-by-height.cpp)
+add_executable(heaters heaters.cpp)
