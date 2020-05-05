@@ -209,3 +209,4 @@ add_executable(check-if-it-is-a-straight-line check-if-it-is-a-straight-line.cpp
 add_executable(find-all-duplicates-in-an-array find-all-duplicates-in-an-array.cpp)
 add_executable(queue-reconstruction-by-height queue-reconstruction-by-height.cpp)
 add_executable(heaters heaters.cpp)
+add_executable(valid-palindrome-ii valid-palindrome-ii.cpp)
