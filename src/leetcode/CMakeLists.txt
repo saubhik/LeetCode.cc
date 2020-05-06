@@ -210,3 +210,4 @@ add_executable(find-all-duplicates-in-an-array find-all-duplicates-in-an-array.c
 add_executable(queue-reconstruction-by-height queue-reconstruction-by-height.cpp)
 add_executable(heaters heaters.cpp)
 add_executable(valid-palindrome-ii valid-palindrome-ii.cpp)
+add_executable(perfect-number perfect-number.cpp)
