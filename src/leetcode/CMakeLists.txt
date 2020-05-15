@@ -219,3 +219,4 @@ add_executable(moving-stones-until-consecutive moving-stones-until-consecutive.c
 add_executable(the-k-th-lexicographical-string-of-all-happy-strings-of-length-n the-k-th-lexicographical-string-of-all-happy-strings-of-length-n.cpp)
 add_executable(x-of-a-kind-in-a-deck-of-cards x-of-a-kind-in-a-deck-of-cards.cpp)
 add_executable(single-number-iii single-number-iii.cpp)
+add_executable(valid-boomerang valid-boomerang.cpp)
