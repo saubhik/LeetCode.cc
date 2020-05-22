@@ -221,3 +221,6 @@ add_executable(x-of-a-kind-in-a-deck-of-cards x-of-a-kind-in-a-deck-of-cards.cpp
 add_executable(single-number-iii single-number-iii.cpp)
 add_executable(valid-boomerang valid-boomerang.cpp)
 add_executable(sum-of-square-numbers sum-of-square-numbers.cpp)
+# TODO: fix this
+# add_executable(repeated-string-match repeated-string-match.cpp)
+add_executable(magic-squares-in-grid magic-squares-in-grid.cpp)
