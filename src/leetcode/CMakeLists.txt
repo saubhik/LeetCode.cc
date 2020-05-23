@@ -224,6 +224,5 @@ add_executable(sum-of-square-numbers sum-of-square-numbers.cpp)
 # TODO: fix this
 # add_executable(repeated-string-match repeated-string-match.cpp)
 add_executable(magic-squares-in-grid magic-squares-in-grid.cpp)
-# TODO: fix this
 add_executable(walking-robot-simulation walking-robot-simulation.cpp)
 add_executable(check-if-n-and-its-double-exist check-if-n-and-its-double-exist.cpp)
