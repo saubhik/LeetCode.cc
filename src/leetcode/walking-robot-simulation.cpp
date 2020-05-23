@@ -107,6 +107,10 @@ public:
 
 class Solution2 {
 public:
+  // Runtime: 228 ms, faster than 55.46% of C++ online submissions for Walking
+  // Robot Simulation. Memory Usage: 35.8 MB, less than 100.00% of C++ online
+  // submissions for Walking Robot Simulation.
+  //
   // this is better representation of directions in coordinate space.
   // also, this uses set instead of map.
   // for both, the lookups are logarithmic time.
