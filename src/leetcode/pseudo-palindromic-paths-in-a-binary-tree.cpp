@@ -11,6 +11,9 @@
  */
 class Solution {
 private:
+    // Count of each value should be even, except for at most 1.
+    // Same as checking bit representation is a power of 2.
+    // Use Kernighan's identity n&(n-1) removes the rightmost set bit.
     void dfs(TreeNode* node, unsigned int &rep, int &ans) {
         rep ^= 1 << node->val;
         if (!node->left && !node->right && !(rep&(rep-1))) ++ans;
