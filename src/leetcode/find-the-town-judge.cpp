@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
   // Runtime: 152 ms, faster than 81.75% of C++ online submissions for Find the
   // Town Judge. Memory Usage: 42.2 MB, less than 100.00% of C++ online
@@ -20,6 +20,19 @@ public:
     for (int i = 1; i <= N; ++i)
       if (count[i] == N - 1)
         return i;
+    return -1;
+  }
+};
+
+class Solution2 {
+public:
+  // Find node with indegree n-1, and outdegree 0.
+  // i.e., find node with (indegree-outdegree) == n-1.
+  int findJudge(int n, vector<vector<int>>& trust) {
+    if (trust.size() < n-1) return -1;
+    vector<int> deg(n); // indegree - outdegree
+    for (auto &vec : trust) --deg[vec[0]-1], ++deg[vec[1]-1];
+    for (int i=0; i<n; ++i) if (deg[i] == n-1) return i+1;
     return -1;
   }
 };
